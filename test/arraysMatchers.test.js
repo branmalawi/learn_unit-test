@@ -1,7 +1,7 @@
 const names = ["syibran", "malawi"];
 const person = [{ name: "syibran" }, { name: "malawi" }];
 
-// toContain digunakan apakah nilai dari oarameter terdapat didakam array expected
+// toContain digunakan apakah nilai dari parameter terdapat didakam array expected
 test("test toContain", () => {
   expect(names).toContain("malawi");
 });

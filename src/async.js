@@ -7,5 +7,5 @@ export const sayHello = (name) => {
         reject('name is empty');
       }
     }, 2000);
-  })
-}
+  });
+};
