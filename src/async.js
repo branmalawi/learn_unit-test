@@ -9,3 +9,8 @@ export const sayHello = (name) => {
     }, 2000);
   });
 };
+
+export const getBalance = async (name, from) => {
+  const balance = await from();
+  return { name, balance };
+}
